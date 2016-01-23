@@ -5,6 +5,7 @@ A basic C library that can disable / enable the ptrace function globally
 * To install (requires root):
 
   make all
+  
   make install
 
 
