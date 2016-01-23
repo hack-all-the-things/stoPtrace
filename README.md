@@ -22,3 +22,8 @@ user@host $ sudo rm -vf /etc/allow-debug
 
 
 Note: It requires root access to disable/enable debugging globally.
+
+
+# Todo
+* Add an initialization hook for processes to register a signal handler for SIGTRAP and SIGSTOP
+* Create configurable blacklists/whitelists for debugging configuration
